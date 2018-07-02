@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<h1>Perform Debit or Credit Operation</h1>
+<form action="transaction" method="post">
+  <table>
+	 	 <tr>
+			<td>Account Number:</td>
+			<td><input type="number" name ="acct_no"></td>
+		</tr>
+
+		<tr>
+			<td>Amount:</td>
+			 <td><input type="number" name ="amount" ></td>
+		</tr>
+		</table>
+		<br>
+		
+			<input type="submit" value="Debit From" name= "action">
+			<input type="submit" value="Credit To" name= "action">
+		
+	</form>
+</body>
+</html>

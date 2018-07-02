@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+<h1>Authorize Credit Card Transactions</h1>
+<form action="approve" method="post">
+  <table>
+	 	 <tr>
+			<td>Name:</td>
+			<td><input type="text" name ="name" placeholder="John Watson" required="required"></td>
+		</tr>
+
+		<tr>
+			<td>Card Number:</td>
+			 <td><input type="number" name ="c_no" placeholder="16 digit" required="required"></td>
+		</tr>
+		<tr>
+			<td>CVV2 CVC2:</td>
+			<td><input type="number" name ="cvv" placeholder="123" required="required"></td>
+		</tr>
+
+		<tr>
+			<td>Amount:</td>
+			 <td><input type="number" name ="amount" placeholder="123456" required="required"></td>
+		</tr>
+		</table>
+		<br>
+		
+			<input type="submit" value="Authorize">
+			
+		
+	</form>
+</body>
+</html>

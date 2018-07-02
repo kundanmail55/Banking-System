@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+<h1>Account Creation</h1>
+<form action="user" method="post">
+<table>
+	  <tr>
+			<td>Name:</td>
+			<td><input type="text" name ="uname" required="required" placeholder="Full Name"></td>
+		</tr>
+
+		<tr>
+			<td>DOB:</td>
+			 <td><input type="text" name ="dob" placeholder="DD-MM-YYY"></td>
+		</tr>
+		
+		<tr>
+			<td>Address:</td>
+			 <td><textarea rows="8" cols="35" name ="add" placeholder="Address"></textarea></td>
+		</tr>
+		
+		<tr>
+			<td>Email ID:</td>
+			 <td><input type="text" name ="email" placeholder="example@xyz.com" ></td>
+		</tr>
+
+		
+		<tr>
+		<td>Type Of Account:</td>
+		<td><select name="type">
+		<option value="Select">Select</option>
+		<option value="SB Account">SB Account</option>
+		<option value="CR Account">CR Account</option>
+		</select></td>
+		</tr>
+	
+		<td colspan="2">
+			<input type="submit" value="Create Account">
+			</td>
+		
+</table>
+		</form>
+			
+		
+</body>
+</html>
